@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0ocs254" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.40.1" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.8.0">
+  <bpmn:process id="Process_1e1nlwt" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1" />
+    <bpmn:endEvent id="Event_0632umo" />
+    <bpmn:task id="Activity_12i1vav" name="O_Created" />
+    <bpmn:task id="Activity_1aljhhz" name="O_Sent (mail and online)" />
+    <bpmn:task id="Activity_0suq6y3" name="O_Returned" />
+    <bpmn:task id="Activity_12fm7r6" name="O_Cancelled" />
+    <bpmn:task id="Activity_0nld4np" name="O_Accepted" />
+    <bpmn:task id="Activity_0h8fmku" name="O_Refused" />
+    <bpmn:task id="Activity_1aye80b" name="O_Sent (online only)" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1e1nlwt">
+      <bpmndi:BPMNShape id="Activity_12i1vav_di" bpmnElement="Activity_12i1vav">
+        <dc:Bounds x="280" y="280" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_12fm7r6_di" bpmnElement="Activity_12fm7r6">
+        <dc:Bounds x="710" y="280" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0nld4np_di" bpmnElement="Activity_0nld4np">
+        <dc:Bounds x="710" y="410" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0h8fmku_di" bpmnElement="Activity_0h8fmku">
+        <dc:Bounds x="710" y="540" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_1_di" bpmnElement="StartEvent_1">
+        <dc:Bounds x="152" y="82" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0632umo_di" bpmnElement="Event_0632umo">
+        <dc:Bounds x="912" y="82" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0suq6y3_di" bpmnElement="Activity_0suq6y3">
+        <dc:Bounds x="490" y="280" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1aye80b_di" bpmnElement="Activity_1aye80b">
+        <dc:Bounds x="280" y="530" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1aljhhz_di" bpmnElement="Activity_1aljhhz">
+        <dc:Bounds x="280" y="400" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
